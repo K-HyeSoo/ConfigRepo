@@ -5,9 +5,9 @@ spring:
     show-sql: true
     database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
 
-hm-service:
+ev-service:
   datasource:
-    jdbc-url: jdbc:mysql://192.168.0.130:3306/hm_service?serverTimezone=UTC
+    jdbc-url: jdbc:mysql://192.168.0.130:3306/ev_service?serverTimezone=UTC
     username: root
     password: 'root'
     maximum-pool-size: 3
